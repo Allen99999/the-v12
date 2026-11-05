@@ -399,7 +399,7 @@ html.static .grain{animation:none}
       if (k < 1) requestAnimationFrame(step); else if (target === 0) bgm.pause();
     })(t0);
   }
-  const bgFor = i => i <= VIDEO ? 0 : (i === END ? .55 : .16);
+  const bgFor = i => i <= VIDEO ? 0 : (i === END ? .12 : .05);
 
   function sweep(dir) {
     document.querySelectorAll('#sweep span').forEach((b, k) => {
